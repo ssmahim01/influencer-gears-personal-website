@@ -92,6 +92,7 @@ i:hover{
     border-radius:2rem;
     border:none;
     margin-top:1rem;
+    cursor:pointer;
 }
 
 .header-image-content1{
@@ -164,8 +165,159 @@ i:hover{
 .logo img:hover{
     cursor:pointer;
     background-color:blueviolet;
-    border-radius:1rem;
-    padding:0.3rem;
+    border-radius:0.5rem;
+    padding:5px;
 }
 
 /* online market sites section styles end */
+
+/* popular collection section styles start */
+
+.popular-collection-container{
+    width:80%;
+    margin:0 auto;
+    margin-top:5%;
+}
+
+.main-title{
+    color:rgb(58, 58, 58);
+    font-size:1.8rem;
+    font-weight:700;
+    text-align:center;
+}
+
+.cards-container{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    column-gap:5px;
+    row-gap:30px;
+    margin-top:3rem;
+}
+
+.first-content-parent, 
+.second-content-parent, 
+.third-content-parent, 
+.fourth-content-parent, 
+.fifth-content-parent, 
+.sixth-content-parent, 
+.seventh-content-parent, 
+.eighth-content-parent, 
+.ninth-content-parent{
+    width:329px;
+    height:500px;
+    background-color:rgb(255, 255, 255);
+    border-radius:0.4rem;
+    box-shadow:0 0 40px 10px rgba(0, 0, 0, 0.15);
+}
+
+.first-content-parent, 
+.second-content-parent, 
+.third-content-parent, 
+.fourth-content-parent, 
+.fifth-content-parent, 
+.sixth-content-parent, 
+.seventh-content-parent, 
+.eighth-content-parent, 
+.ninth-content-parent:hover{
+    cursor:pointer;
+}
+
+.first-content-image, 
+.second-content-image, 
+.third-content-image, 
+.fourth-content-image, 
+.fifth-content-image, 
+.sixth-content-image, 
+.seventh-content-image, 
+.eighth-content-image, 
+.ninth-content-image{
+    width:100%;
+}
+
+.first-content-image, 
+.second-content-image, 
+.third-content-image, 
+.fourth-content-image, 
+.fifth-content-image, 
+.sixth-content-image, 
+.seventh-content-image, 
+.eighth-content-image, 
+.ninth-content-image img{
+    width:90%;
+    margin-top:1rem;
+    margin-left:1rem;
+}
+
+.first-content-description, 
+.second-content-description, 
+.third-content-description, 
+.fourth-content-description, 
+.fifth-content-description, 
+.sixth-content-description, 
+.seventh-content-description, 
+.eighth-content-description, 
+.ninth-content-description{
+    padding:0 1.2rem;
+}
+
+.first-content-title, 
+.second-content-title, 
+.third-content-title, 
+.fourth-content-title, 
+.fifth-content-title, 
+.sixth-content-title, 
+.seventh-content-title, 
+.eighth-content-title, 
+.ninth-content-title{
+    color:rgb(24, 25, 31);
+    font-size:2rem;
+    font-weight:600;
+    margin-top:5%;
+}
+
+.first-content-price, 
+.second-content-price, 
+.third-content-price, 
+.fourth-content-price, 
+.fifth-content-price, 
+.sixth-content-price, 
+.seventh-content-price, 
+.eighth-content-price, 
+.ninth-content-price{
+    color:rgba(0, 0, 0, 0.87);
+    font-size:1.6rem;
+    font-weight:500;
+    margin-top:-8%;
+}
+
+.ratings{
+    width:122px;
+   height:32px;
+    display:flex;
+    gap:12px;
+    padding:0 1.3rem;
+    margin-top:-5%;
+}
+
+.ratings i, 
+span{
+    width:10px;
+}
+
+span{
+    color:rgb(94, 99, 102);
+    font-size:0.9rem;
+    font-weight:600;
+    margin-top:-1px;
+    margin-left:5%;
+}
+
+.content-data{
+    color:rgb(120, 120, 133);
+    font-size:0.9rem;
+    font-weight:700;
+    padding:0 1.1rem;
+    margin-top:-2%;
+}
+
+/* popular collection section styles end */

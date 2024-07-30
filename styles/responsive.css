@@ -29,7 +29,7 @@
 
     #cart-icon{
         margin-top:-30px;
-        margin-right:-80px;
+        margin-right:-20px;
         font-size:1.4rem;
     }
 
@@ -64,4 +64,23 @@
     }
 
     /* header responsive end */
+
+    /* online market sites section responsive start */
+
+    .market-sites-section{
+        width:90%;
+    }
+    
+    .logos-container{
+        width:100%;
+        gap:5px;
+        flex-wrap:wrap;
+        box-shadow:none;
+    }
+
+    .logo img{
+        width:80%;
+    }
+
+    /* online market sites section responsive end */
 }

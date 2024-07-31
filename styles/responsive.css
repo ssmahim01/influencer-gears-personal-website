@@ -1,3 +1,5 @@
+/* mobile screen media query */
+
 @media screen and (max-width:576px){
 
     /* header responsive start */
@@ -83,4 +85,26 @@
     }
 
     /* online market sites section responsive end */
+
+    /* popular collection section responsive start */
+
+    .popular-collection-container{
+        margin-top:4rem;
+    }
+
+    .main-title{
+        font-size:1.2rem;
+    }
+
+    .cards-container{
+        grid-template-columns:1fr;
+        margin-top:1.6rem;
+        margin-bottom:2rem;
+    }
+
+    .see-more{
+        margin-left:67%;
+    }
+
+    /* popular collection section responsive end */
 }

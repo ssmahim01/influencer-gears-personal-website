@@ -95,6 +95,10 @@ i:hover{
     cursor:pointer;
 }
 
+.btn1 i{
+    margin-left:0.5rem;
+}
+
 .header-image-content1{
     display:none;
     width:50%;
@@ -192,6 +196,7 @@ i:hover{
     column-gap:5px;
     row-gap:30px;
     margin-top:3rem;
+    margin-bottom:3.5rem;
 }
 
 .first-content-parent, 
@@ -320,4 +325,17 @@ span{
     margin-top:-2%;
 }
 
+.see-more{
+    color:rgba(224, 44, 109, 0.87);
+    font-size:1rem;
+    font-weight:700;
+    cursor:pointer;
+    margin-left:88%;
+}
+
+.see-more i{
+    margin-left:0.4rem;
+}
+
 /* popular collection section styles end */
+

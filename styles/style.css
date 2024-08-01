@@ -2,6 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* universal selector */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
     font-family:"Poppins", sans-serif;
 }
@@ -130,7 +138,7 @@ i:hover{
     width:80%;
     height:100px;
     margin:0 auto;
-    margin-top:5.5rem;
+    margin-top:5.8rem;
 }
 
 .logos-container{
@@ -178,7 +186,7 @@ i:hover{
 .popular-collection-container{
     width:80%;
     margin:0 auto;
-    margin-top:5%;
+    margin-top:8%;
 }
 
 .main-title{
@@ -260,7 +268,7 @@ i:hover{
 .seventh-content-description, 
 .eighth-content-description, 
 .ninth-content-description{
-    padding:0 1.2rem;
+    padding:1.5rem 1.2rem;
 }
 
 .first-content-title, 
@@ -275,7 +283,7 @@ i:hover{
     color:rgb(24, 25, 31);
     font-size:2rem;
     font-weight:600;
-    margin-top:5%;
+    /* margin-top:5%; */
 }
 
 .first-content-price, 
@@ -290,7 +298,7 @@ i:hover{
     color:rgba(0, 0, 0, 0.87);
     font-size:1.6rem;
     font-weight:500;
-    margin-top:-8%;
+    margin-top:3%;
 }
 
 .ratings{
@@ -345,7 +353,7 @@ span{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    margin-top:8%;
+    margin-top:10%;
 }
 
 .featured-image-content{
@@ -382,3 +390,79 @@ span{
 }
 
 /* featured products section styles end */
+
+/* footer styles start */
+
+footer{
+    margin-top:8%;
+background-color:rgb(10, 8, 38);
+}
+
+.footer-all-content{
+    width:30%;
+    margin:0 auto;
+    padding-top:3rem;
+    padding-bottom:3rem;
+}
+
+.footer-title{
+    color:rgb(255, 255, 255);
+    font-size:1.5rem;
+    font-weight:700;
+    text-align:center;
+    margin-bottom:0.5rem;
+}
+
+.footer-introduction-copyright1{
+    color:rgb(217, 219, 225);
+    font-size:0.9rem;
+    font-weight:700;
+    text-align:center;
+}
+
+.footer-introduction-copyright2{
+    color:rgb(217, 219, 225);
+    font-size:0.9rem;
+    font-weight:700;
+    text-align:center;
+    margin-top:0.5rem;
+    margin-bottom:1.5rem;
+}
+
+.footer-icons{
+    width:50%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.instagram-icon, 
+.dribbble-icon, 
+.twitter-icon, 
+.you-tube-icon{
+    width:30px;
+    height:30px;
+    background-color:rgb(255, 255, 255);
+    opacity:0.2;
+    border-radius:50%;
+}
+
+.instagram-icon, 
+.dribbble-icon, 
+.twitter-icon, 
+.you-tube-icon i{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+
+.you-tube-icon a{
+    text-decoration:none;
+}
+
+.you-tube-icon i{
+    margin-top:0.45rem;
+}
+
+/* footer styles end */

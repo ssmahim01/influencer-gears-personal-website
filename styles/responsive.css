@@ -16,7 +16,6 @@
         position:absolute;
         font-size:0.8rem;
         margin-left:90px;
-        margin-top:-20px;
     }
 
     .bars-icon{
@@ -30,8 +29,7 @@
     }
 
     #cart-icon{
-        margin-top:-30px;
-        margin-right:-20px;
+        margin-top:-14px;
         font-size:1.4rem;
     }
 
@@ -143,4 +141,12 @@
     }
 
     /* featured products section responsive end */
+
+    /* footer responsive start */
+
+    .footer-all-content{
+        width:100%;
+    }
+    
+    /* footer responsive end */
 }
